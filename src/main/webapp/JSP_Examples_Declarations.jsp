@@ -29,6 +29,9 @@ out.println("Multiplication gives: "+a*b*c+"<br>");
 out.println("Addition gives:"+(a+b+c));
 
 %>
+<br/><br/>
 
+Current Time:
+ <%=java.util.Calendar.getInstance().getTime()%>
 </body>
 </html>
